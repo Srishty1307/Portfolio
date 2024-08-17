@@ -76,10 +76,13 @@ body{
     .container {
         flex-direction: column;
         justify-content: flex-start;
+        padding: 0; /* Remove padding on smaller screens */
+        margin-top: 0; /* Remove margin-top to avoid overlap */
+    }
 
     .introduction,
     .works {
-        width: 100%; 
-        margin-bottom: 20px;
+        width: 100%; /* Make sections full width */
+        margin-bottom: 20px; /* Add space between sections */
     }
 }
