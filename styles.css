@@ -72,27 +72,16 @@ body{
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .container {
-        flex-direction: column; /* Stacks sections vertically */
-        align-items: center;
-        padding: 20px;
+        flex-direction: column;
+        justify-content: flex-start; /* No centralizing, just stacking */
+        padding: 20px; /* Adjust padding for smaller screens */
     }
 
-    .introduction, .works {
-        width: 100%; /* Full width on smaller screens */
-        text-align: center; /* Center content */
-    }
-
-    .introduction span, .works span {
-        font-size: 40px; /* Reduce font size for smaller screens */
-    }
-
-    .introduction div, .works div {
-        font-size: 18px; /* Adjust text size */
-    }
-
+    .introduction,
     .works {
-        margin-top: 40px; /* Add spacing between sections */
+        width: 100%; /* Make sections full width on smaller screens */
+        margin-bottom: 20px; /* Add some space between sections */
     }
 }
