@@ -71,3 +71,24 @@ body{
         font-size: larger;
     }
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .introduction, .works {
+        width: 100%;
+        height: auto;
+    }
+
+    .introduction span, .works span {
+        font-size: 40px;
+    }
+
+    .introduction div, .works div {
+        font-size: 18px;
+    }
+}
