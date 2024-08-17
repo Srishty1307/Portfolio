@@ -75,13 +75,11 @@ body{
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
-        justify-content: flex-start; /* No centralizing, just stacking */
-        padding: 20px; /* Adjust padding for smaller screens */
-    }
+        justify-content: flex-start;
 
     .introduction,
     .works {
-        width: 100%; /* Make sections full width on smaller screens */
-        margin-bottom: 20px; /* Add some space between sections */
+        width: 100%; 
+        margin-bottom: 20px;
     }
 }
